@@ -87,7 +87,7 @@ xmlport 50106 GL_Import
         dhbLen: Integer;
         Cnt: Integer;
 
-    procedure dhbPassVariables(dhbPassJournalTemplate: Code[10]; dhbPassJournalBatch: Code[10])
+    procedure GetJnlInfo(dhbPassJournalTemplate: Code[10]; dhbPassJournalBatch: Code[10])
     begin
         dhbJournalTemplate := dhbPassJournalTemplate;
         dhbJournalBatch := dhbPassJournalBatch;
