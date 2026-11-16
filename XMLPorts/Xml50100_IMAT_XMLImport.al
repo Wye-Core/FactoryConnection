@@ -7,9 +7,6 @@ xmlport 50100 IMATImport
     FieldDelimiter = '"';
     //TableSeparator = '<NewLine>';
     RecordSeparator = '<NewLine>';
-
-
-
     UseRequestPage = false;
 
     schema
@@ -21,7 +18,7 @@ xmlport 50100 IMATImport
             {
                 XmlName = 'Integer';
                 SourceTableView = sorting(Number);
-                RequestFilterFields = Number;
+                //RequestFilterFields = Number;
                 AutoReplace = false;
                 AutoUpdate = false;
                 AutoSave = false;

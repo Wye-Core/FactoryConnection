@@ -8,6 +8,10 @@ pageextension 50108 VendorListExt extends "Vendor List"
             {
                 ApplicationArea = All;
             }
+            field("Our Account No."; Rec."Our Account No.")
+            {
+                ApplicationArea = All;
+            }
         }
     }
 }
